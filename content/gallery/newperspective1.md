@@ -6,4 +6,4 @@ weight = 2
 
 {{< image >}}
 
-# {{< param title >}}
+ {{< param title >}}
