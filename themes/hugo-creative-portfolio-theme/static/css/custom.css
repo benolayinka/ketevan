@@ -1,13 +1,7 @@
 /* your styles go here */
 
-.img-container-square {
-	position:relative;
-    overflow:hidden;
-    padding-bottom:100%;
-}
-
-.img-container-square img{
-    position:absolute;
+body {
+    font-family: "Courier New";
 }
 
 .use-cover-background {

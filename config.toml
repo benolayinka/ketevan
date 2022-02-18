@@ -1,18 +1,12 @@
 baseurl = "https://ketevan.gallery/"
-title = "Keti Gorgiladze"
+title = "Ketevan Gorgiladze"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
-# Enable comments by entering your Disqus shortname
-disqusShortname = ""
-# Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
 
 [params]
-  # Style options: default (pink), blue, green, pink, red, sea, violet
-  # Use custom.css for your custom styling
   style = "default"
-  description = "Keti Gorgiladze"
-  copyright = "©2022 Keti Gorgiladze"
+  description = "Ketevan Gorgiladze"
+  copyright = "©2022 Ketevan Gorgiladze"
   sidebarAbout = [
     "I paint on canvas.",
     "Originally from Georgia, based in Berlin."
@@ -29,5 +23,5 @@ googleAnalytics = ""
   url = "bio/"
 
   [params.social]
-  email         = "email@example.com"
+  email         = "gorgiladzeketevan@gmail.com"
   instagram     = "https://www.instagram.com/ketigorgiladze/"

@@ -9,7 +9,9 @@ weight = 0
 
 {{< figure src="/img/gallery/1.jpg" >}}
 
-## My first painting
+<br>
+
+# My first painting
 
 This is my first painting.
 
