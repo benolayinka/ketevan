@@ -1,0 +1,21 @@
+/* your styles go here */
+
+.img-container-square {
+	position:relative;
+    overflow:hidden;
+    padding-bottom:100%;
+}
+
+.img-container-square img{
+    position:absolute;
+}
+
+.use-cover-background {
+  background-size: cover;
+  background-position: center;
+}
+
+.square {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
