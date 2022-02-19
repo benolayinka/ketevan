@@ -1,7 +1,7 @@
 +++
 image = "img/gallery/99.jpg"
 title = "NEW PERSPECTIVE”
-weight = 1
+weight = 97
 +++
 
 {{< image >}}
