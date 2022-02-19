@@ -1,7 +1,13 @@
 /* your styles go here */
 
+:root {
+  --accent-color: #5b636b;
+  --font-family-body:  "Courier New", sans-serif;
+  --font-family-header:  "Courier New", sans-serif;
+}
+
 body {
-    font-family: "Courier New";
+    font-family: var(--font-family-body);
 }
 
 .use-cover-background {

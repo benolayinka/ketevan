@@ -11,10 +11,6 @@ GENERAL
 =====================
 */
 
-:root {
-  --accent-color: #5b636b;
-}
-
 html,
 body {
   overflow-x: hidden;
@@ -1300,7 +1296,7 @@ STYLE SWITCHER FOR DEMO
 }
 /* navbar */
 .navbar {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: var(--font-family-body);
   min-height: 80px;
   margin-bottom: 0;
   border-top: none;
@@ -1587,7 +1583,7 @@ STYLE SWITCHER FOR DEMO
 }
 /* scaffolding */
 body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: var(--font-family-body);
   font-size: 16px;
   line-height: 1.55;
   color: #000000;
@@ -1664,7 +1660,7 @@ hr {
 /* buttons  */
 .btn {
   font-weight: 400;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: var(--font-family-header);
   padding: 6px 12px;
   font-size: 16px;
   line-height: 1.55;
@@ -1783,7 +1779,7 @@ fieldset[disabled] .btn-transparent.active {
 }
 /* labels */
 .label {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: var(--font-family-header);
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -1837,7 +1833,7 @@ label {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 14px;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: var(--font-family-body);
   font-weight: bold;
 }
 .pager li {
@@ -1866,7 +1862,7 @@ label {
 /* pagination */
 .pagination {
   margin: 24px 0;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: var(--font-family-body);
   border-radius: 0;
 }
 .pagination > li > a,
@@ -1952,7 +1948,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: var(--font-family-header);
   font-weight: 700;
   line-height: 1.2;
   color: #000000;
