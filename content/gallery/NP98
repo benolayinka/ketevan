@@ -1,0 +1,9 @@
++++
+image = "img/gallery/98.jpg"
+title = "NEW PERSPECTIVE”
+weight = 98
++++
+
+{{< image >}}
+
+# {{< param title >}}
