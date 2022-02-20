@@ -1,9 +1,0 @@
-+++
-image = "img/gallery/99.jpg"
-title = "NEW PERSPECTIVE”
-weight = 97
-+++
-
-{{< image >}}
-
-# {{< param title >}}

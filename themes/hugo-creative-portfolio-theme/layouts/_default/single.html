@@ -4,7 +4,11 @@
   <div class="row">
     <div class="col-xl-8">
       <div class="content-column-content">
-         {{ .Content }}
+        <figure>
+          <img src="{{ .Params.image | absURL }}" class="img-fluid">
+        </figure>
+        {{ .Title }}
+        {{ .Content }}
       </div>
     </div>
   </div>
