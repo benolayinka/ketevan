@@ -1,5 +1,4 @@
 +++
-image = "img/gallery/79.jpg"
 title = "Eirene"
 weight = 79
 +++

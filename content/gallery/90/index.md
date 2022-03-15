@@ -1,7 +1,6 @@
 +++
-image = "img/gallery/88.jpg"
 title = "Another Thought"
-weight = 88
+weight = 90
 +++
 
 Mixed Media on Paper

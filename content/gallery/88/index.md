@@ -1,8 +1,7 @@
 +++
-image = "img/gallery/86.jpg"
 title = "Another Thought"
-weight = 86
+weight = 88
 +++
 
 Mixed Media on Paper
-/ 2021
+/ 2020

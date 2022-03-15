@@ -1,5 +1,4 @@
 +++
-image = "img/gallery/77.jpg"
 title = "Maps of Meaning"
 weight = 77
 +++

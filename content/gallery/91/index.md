@@ -1,8 +1,7 @@
 +++
-image = "img/gallery/95.jpg"
 title = "FROM NEW PERSPECTIVES"
-weight = 95
+weight = 91
 +++
 
 Mixed Media on Glass
-/ 140x140 cm
+/ 2021

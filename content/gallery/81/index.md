@@ -1,5 +1,4 @@
 +++
-image = "img/gallery/81.jpg"
 title = "And I Saw Somethin Else Under The Sun"
 weight = 81
 +++

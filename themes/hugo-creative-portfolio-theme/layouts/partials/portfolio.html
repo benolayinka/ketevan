@@ -3,11 +3,15 @@
       <div class="row">
         {{ range .Data.Pages }}
             <div class="col-xs-12 col-sm-6 col-lg-4 mb-4">
-              {{ if and (isset .Params "image") .Params.image }}
-              <a href="{{ .Permalink }}">
-                <div class="use-cover-background square" style="background-image: url({{.Params.image | absURL}})">
-                </div>
-              </a>
+              {{ $permalink := .Permalink }}
+              {{ with .Resources.ByType "image" }}
+                {{ range . }}
+                {{ $image := .Resize "600x webp" }}
+                <a href="{{ $permalink }}">
+                  <div class="use-cover-background square" style="background-image: url({{ $image.RelPermalink }})">
+                  </div>
+                </a>
+                {{ end }}
               {{ end }}
             </div>
         {{ end }}

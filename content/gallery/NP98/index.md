@@ -1,8 +1,6 @@
 +++
-image = "img/gallery/97.jpg"
 title = "FROM NEW PERSPECTIVES"
-weight = 97
+weight = 98
 +++
-
 Batik on Silk
-/ 140x170 cm
+/ 140x140 cm

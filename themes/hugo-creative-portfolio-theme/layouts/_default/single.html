@@ -4,9 +4,14 @@
   <div class="row">
     <div class="col-xl-8">
       <div class="content-column-content">
-        <figure>
-          <img src="{{ .Params.image | absURL }}" class="img-fluid">
-        </figure>
+        {{ with .Resources.ByType "image" }}
+          {{ range . }}
+          {{ $image := .Resize "800x webp" }}
+          <figure>
+            <img src="{{ $image.RelPermalink }}" class="img-fluid">
+          </figure>
+          {{ end }}
+        {{ end }}
         {{ .Title }}
         {{ .Content }}
       </div>

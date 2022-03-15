@@ -1,5 +1,4 @@
 +++
-image = "img/gallery/96.jpg"
 title = "FROM NEW PERSPECTIVES"
 weight = 96
 +++
