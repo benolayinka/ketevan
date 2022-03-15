@@ -15,5 +15,5 @@
 {{ $image := .Scratch.Get "image" }}
 
 <figure>
-	<img class="img-fluid" src="{{ $image.RelPermalink }}">
+	<img class="img-fluid" alt="{{ .Get 3 }}" src="{{ $image.RelPermalink }}">
 </figure>  
