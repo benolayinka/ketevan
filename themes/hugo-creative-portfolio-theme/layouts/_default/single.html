@@ -9,7 +9,7 @@
           {{ range . }}
           {{ $image := .Resize "2000x webp" }}
           <figure>
-            <img alt="$title" width="{{ $image.Width }}" height="{{ $image.Height }} src="{{ $image.RelPermalink }}" class="img-fluid">
+            <img alt="$title" width="{{ $image.Width }}" height="{{ $image.Height }}" src="{{ $image.RelPermalink }}" class="img-fluid">
           </figure>
           {{ end }}
         {{ end }}

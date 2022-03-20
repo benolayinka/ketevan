@@ -4,13 +4,12 @@
 <body>
   <div id="all">
       <div class="container-fluid">
-          <div class="row row-offcanvas row-offcanvas-left">
+          <div id="row-offcanvas" class="row row-offcanvas row-offcanvas-left">
               {{ partial "sidebar.html" . }}
               {{ block "main" . }}
               {{ end }}
           </div>
       </div>
   </div>
-  {{ partial "scripts.html" . }}
 </body>
 </html>
